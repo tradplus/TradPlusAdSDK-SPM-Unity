@@ -16,7 +16,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/tradplus/TradPlusAdSDK-SPM.git",
-            .exact("15.13.0")
+            .exact("15.14.0")
         ),
         .package(
             url: "https://github.com/Unity-Technologies/Unity-Ads-Swift-Package.git",
@@ -36,8 +36,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "TPUnityAdapter",
-            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-Unity/releases/download/15.13.0/TPUnityAdapter-15.13.0.xcframework.zip",
-            checksum: "746cbc843b7828160e307069ee0ecac23d043a4d638633939302cf05066cd157"
+            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-Unity/releases/download/15.14.0/TPUnityAdapter-15.14.0.xcframework.zip",
+            checksum: "844555141c5dd33ef5006b6a4ac753df239ec98ee71892ebcb4d3f03b75de76e"
         ),
     ]
 )
